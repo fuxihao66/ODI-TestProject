@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D70B66A7-47FA-38DB-A8A0-79A7ED887E96}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithSketchUpRuby2019</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithSketchUpRuby2019 Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithSketchUpRuby2019 Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithSketchUpRuby2019 Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SketchUpRuby\2019\DatasmithSketchUpRuby2019-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithSketchUpRuby2019 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithSketchUpRuby2019 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithSketchUpRuby2019 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SketchUpRuby\2019\DatasmithSketchUpRuby2019-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithSketchUpRuby2019 Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithSketchUpRuby2019 Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithSketchUpRuby2019 Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SketchUpRuby\2019\DatasmithSketchUpRuby2019.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithSketchUpRuby2019 Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithSketchUpRuby2019 Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithSketchUpRuby2019 Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SketchUpRuby\2019\DatasmithSketchUpRuby2019-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithSketchUpRuby2019 Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithSketchUpRuby2019 Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithSketchUpRuby2019 Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SketchUpRuby\2019\DatasmithSketchUpRuby2019-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithExporter\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithExporter\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporter\Public;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DirectLink\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DirectLink\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DirectLink\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Messaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Messaging\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Messaging\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\MeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\MeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\RawMesh\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\RawMesh\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RawMesh\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\StaticMeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\StaticMeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithExporterUI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithExporterUI\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporterUI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\UdpMessaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\UdpMessaging\VNI;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Networking\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Networking\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Sockets\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\Sockets\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Sockets\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\NetCommon\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\NetCommon\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithSketchUpRuby2019\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithSketchUpRuby2019\Inc\DatasmithSketchUpRuby2019\VNI;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2019.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2019.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2020.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2021.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2022.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2023.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRubyExporter.def"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\readme.md"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Build\build_mac.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Build\build_mac.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Build\create_version_file.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Build\install_manual.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CreateMultilanguageInstaller.bat"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CreateMultilanguageInstaller.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomActions.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomExitDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomInstallDirDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomLicenseAgreementDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomWelcomeDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CustomWixUI_InstallDir.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\GenericUiBrandDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Installer.wixproj"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\SketchUpExporter.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\UpgradeLog.htm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\de-de.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\en-us.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\es-es.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\fr-fr.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\ja-jp.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\ko-kr.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\pt-pt.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_es-es.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_fr-fr.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_ja-jp.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_ko-kr.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_pt-pt.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\UtilExtension_zh_cn.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\zh-cn.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\CheckSketchUp.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\CollectSketchUp.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\DatasmithSketchUpExporter.pkgproj"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\InstallSUPlugins.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\PostInstall2019"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\PostInstall2020"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\PostInstall2021"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\PostInstall2022"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\SignAndBuild.sh"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\default_small_banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Dialog.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Epic_Games_logo.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Exporter Plugin End User License Agreement.docx"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Exporter Plugin End User License Agreement.rtf"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\MacOS_Background.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Microsoft_VC140_CRT_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Microsoft_VC140_OpenMP_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\UnrealEngine.ico"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Epic_Games_logo.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\28190.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\28402.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\28674.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\30668.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\30725.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\General\banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\General\unreal-logo.jpg"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp.rb"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpCamera.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpCamera.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpCommon.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpComponent.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpExportContext.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpExportContext.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpExporter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpImage.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMaterial.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMaterial.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMesh.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMesh.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMetadata.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpMetadata.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpSDKBegins.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpSDKCeases.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpString.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpString.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpSummary.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpSummary.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpTexture.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpTexture.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpUtils.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithSketchUpRuby2019\Development\DatasmithSketchUpRuby2019\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpUtils.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithAutoSyncIcon16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithAutoSyncIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithAutoSyncIconOn16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithAutoSyncIconOn32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithIcon16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithLogIcon16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithLogIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithManageConnectionsIcon16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithManageConnectionsIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithSyncIcon16.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithSyncIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\de\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\en-US\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\es\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\fr\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\ja\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\ko\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\pt-BR\Plugin.strings"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\zh-CN\Plugin.strings"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

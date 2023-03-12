@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8453C16C-13A9-32F6-BD69-F2BC5BC6D83B}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>EpicWebHelper</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\EpicWebHelper-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\EpicWebHelper-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\EpicWebHelper-Win64-Development.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\EpicWebHelper-Mac-Development</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\EpicWebHelper.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat EpicWebHelper Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat EpicWebHelper Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat EpicWebHelper Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\EpicWebHelper</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\ApplicationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\ApplicationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\RHI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\RHI\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Projects\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Projects\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Json\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\Json\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\CEF3Utils\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\CEF3Utils\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CEF3Utils\Public;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\EpicWebHelper\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\EpicWebHelper\Inc\EpicWebHelper\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\UGit\UnrealEngine\Engine\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Build.cs"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperLibCEFIncludes.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\Linux\EpicWebHelperLinux.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\Mac\EpicWebHelperMac.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Private\Windows\EpicWebHelperWindows.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CEF3\cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_windows64;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Mac\Info.plist"/>
+    <Manifest Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win32.manifest"/>
+    <Manifest Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win64.manifest"/>
+    <Manifest Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win32.manifest"/>
+    <Manifest Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win64.manifest"/>
+    <ResourceCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper.rc"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

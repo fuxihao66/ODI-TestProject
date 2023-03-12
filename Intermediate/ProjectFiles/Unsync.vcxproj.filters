@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Unsync.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{C34A53DE-7A2E-391F-9292-A84444E41B18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Programs\Unsync\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.clang-format" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.editorconfig" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.gitignore" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.p4ignore.txt" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\CMakeLists.txt" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\README.md" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Unsync.Build.cs" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\vcpkg.json" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\vs-chromium-project.txt" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{47F9082F-C380-3A62-9531-096AA1D110F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncBuffer.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncBuffer.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdDiff.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdDiff.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdHash.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdHash.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPatch.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPatch.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPush.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPush.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdQuery.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdQuery.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdSync.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdSync.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCommon.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCompression.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCompression.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCore.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCore.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncError.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncFile.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncFile.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHash.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHash.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHttp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHttp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncJupiter.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncJupiter.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncLog.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncLog.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMemory.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMemory.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMiniCb.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMiniCb.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncPool.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProtocol.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProtocol.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProxy.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProxy.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncRemote.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncRemote.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncScan.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSerialization.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSerialization.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSocket.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSocket.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncTest.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncTest.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncThread.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncThread.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncUtil.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncUtil.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncVarInt.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{7B2D70DF-6FB5-3724-AECC-29B745B6114D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\flat_hash_map.hpp">
+      <Filter>ThirdParty</Filter>
+    </None>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\json11.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\json11.hpp">
+      <Filter>ThirdParty</Filter>
+    </None>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\md5-sse2.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\md5-sse2.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <Filter Include="ThirdParty\ig-debugheap">
+      <UniqueIdentifier>{822F9E4E-C873-3143-A6A7-52B8A62EE8BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\DebugHeap.c">
+      <Filter>ThirdParty\ig-debugheap</Filter>
+    </None>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\DebugHeap.h">
+      <Filter>ThirdParty\ig-debugheap</Filter>
+    </ClInclude>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\README.md">
+      <Filter>ThirdParty\ig-debugheap</Filter>
+    </None>
+    <Filter Include="ThirdParty\Licenses">
+      <UniqueIdentifier>{0FF2CBCF-1530-300F-A6E0-2C8109D20ECD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\flat_hash_map.tps">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\flat_hash_map_License.txt">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\ig-debugheap.tps">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\ig-debugheap_License.txt">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\json11.tps">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\json11_License.txt">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\sse-hash.tps">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\sse-hash_License.txt">
+      <Filter>ThirdParty\Licenses</Filter>
+    </None>
+  </ItemGroup>
+</Project>

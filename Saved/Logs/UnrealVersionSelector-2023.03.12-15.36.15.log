@@ -1,0 +1,93 @@
+Log started at 03/12/2023 15:36:16 (2023-03-12T06:36:16Z)
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+No config file at D:\UGit\UnrealEngine\Engine\Restricted\NotForLicensees\Programs\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\FU Xihao\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  D:\UGit\UnrealEngine\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
+  C:\Users\FU Xihao\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: D:\ODI_Test\Saved\Logs\UnrealVersionSelector-2023.03.12-15.36.15.log
+
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+IOS Installed SDK(s): MinVersion_Sdk=1100.0.0.0, MaxVersion_Sdk=8999.0, CurrentVersion_Sdk=1253.12.2.1, Version_AutoSdk=14.1, CurrentVersion_AutoSdk=
+        Registering build platform: IOS - buildable: True
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+        Registering build platform: Linux - buildable: False
+        Registering build platform: LinuxArm64 - buildable: False
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+Mac Installed SDK(s): MinVersion_Sdk=1100.0.0.0, MaxVersion_Sdk=8999.0, CurrentVersion_Sdk=1253.12.2.1, Version_AutoSdk=14.1, CurrentVersion_AutoSdk=
+        Registering build platform: Mac - buildable: True
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+TVOS Installed SDK(s): MinVersion_Sdk=1100.0.0.0, MaxVersion_Sdk=8999.0, CurrentVersion_Sdk=1253.12.2.1, Version_AutoSdk=14.1, CurrentVersion_AutoSdk=
+        Registering build platform: TVOS - buildable: True
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.10586.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.10586.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.15063.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.15063.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.20348.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.20348.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.20348.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.HoloLensPlatformFactory
+HoloLens Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.20348.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: HoloLens - buildable: True
+Log file: D:\UGit\UnrealEngine\Engine\Programs\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: D:\UGit\UnrealEngine\Engine\Programs\UnrealBuildTool\Log_GPF-backup-2023.03.04-15.22.08.txt
+Resolved project argument D:/ODI_Test/FPStyleTransfer.uproject to D:\ODI_Test\FPStyleTransfer.uproject
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.HoloLensProjectGenerator for HoloLens
+
+---   SDK INFO START   ---
+
+Some Platforms were skipped due to invalid SDK setup: Android, Linux, LinuxArm64.
+See the log file for detailed information
+
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.32802.440)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508 (Family=14.20.27508, FamilyRank=2, Version=14.20.27525, Is64Bit=True, Preview=False, Architecture=x64, Error=True, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.20.27508)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702 (Family=14.21.27702, FamilyRank=2, Version=14.21.27702, Is64Bit=True, Preview=False, Architecture=x64, Error=True, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.21.27702)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905 (Family=14.22.27905, FamilyRank=2, Version=14.22.27906, Is64Bit=True, Preview=False, Architecture=x64, Error=True, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.29.30133)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=1, Version=14.29.30146, Is64Bit=True, Preview=False, Architecture=x64, Error=False, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.29.30133)
+Detected supported platforms: Win64, HoloLens, Mac, IOS, Android, Linux, LinuxArm64, TVOS
+Creating project rules assembly for D:\ODI_Test\FPStyleTransfer.uproject...
+ Found 1 Plugins:
+  D:\ODI_Test\Plugins\OnnxDirectmlInference\ODI.uplugin
+ Found 5 Modules:
+  D:\ODI_Test\Source\FPStyleTransfer\FPStyleTransfer.Build.cs
+  D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\ODID3D12RHI.Build.cs
+  D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODIRHI\ODIRHI.Build.cs
+  D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODI\ODI.Build.cs
+  D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\DirectML_1_9_1.Build.cs
+Compiling D:\ODI_Test\Intermediate\Build\BuildRules\FPStyleTransferModuleRules.dll: Assembly does not exist
+D:\ODI_Test\Source\FPStyleTransfer\FPStyleTransfer.Build.cs(13,5): error CS0103: The name 'Path' does not exist in the current context
+Expecting to find a type to be declared in a target rules named 'FPStyleTransferTarget'.  This type must derive from the 'TargetRules' type defined by Unreal Build Tool.
+BuildException: Expecting to find a type to be declared in a target rules named 'FPStyleTransferTarget'.  This type must derive from the 'TargetRules' type defined by Unreal Build Tool.
+   at UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, UnrealArchitectures Architectures, FileReference ProjectFile, CommandLineArguments Arguments, ILogger Logger, Boolean IsTestTarget, Boolean bSkipValidation) in D:\UGit\UnrealEngine\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 782
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger) in D:\UGit\UnrealEngine\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2450
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, ILogger Logger) in D:\UGit\UnrealEngine\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 916
+   at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments, ILogger Logger) in D:\UGit\UnrealEngine\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 67
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\UGit\UnrealEngine\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 599
+WriteFileIfChanged() wrote 0 changed files of 0 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+2.446) <unknown>
+[ 2.446]

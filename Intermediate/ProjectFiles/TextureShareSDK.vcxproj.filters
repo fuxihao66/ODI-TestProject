@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\TextureShareSDK.Target.cs" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\TextureShareSDK.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{47F9082F-C380-3A62-9531-096AA1D110F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Private\TextureShareSDK.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Private\TextureShareSDKObject.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Private\TextureShareSDKObject.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Public">
+      <UniqueIdentifier>{3D067BED-FE2F-3677-870D-D6CCF64D05ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\ITextureShareSDK.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\ITextureShareSDKObject.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <Filter Include="Public\Containers">
+      <UniqueIdentifier>{5D6169E0-DEF4-38BD-B40B-8D57E77087A3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\TextureShareSDKContainers.h">
+      <Filter>Public\Containers</Filter>
+    </ClInclude>
+    <Filter Include="Public\Containers\UnrealEngine">
+      <UniqueIdentifier>{EA747088-3A36-317C-982E-F42393F4ACE9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineArray.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineContainers.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineEnums_PixelFormat.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineMath.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineString.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Containers\UnrealEngine\TextureShareSDKUnrealEngineTypes.h">
+      <Filter>Public\Containers\UnrealEngine</Filter>
+    </ClInclude>
+    <Filter Include="Public\Serialize">
+      <UniqueIdentifier>{3881B981-76B1-31E1-B6E1-EE6D0B0C9305}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Serialize\ITextureShareSDKSerializeStream.h">
+      <Filter>Public\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\VirtualProduction\TextureShare\Public\Serialize\TextureShareSDKDataWrappers.h">
+      <Filter>Public\Serialize</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FPStyleTransfer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\FPStyleTransfer.init.gen.cpp.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\StyleTransferBlueprintLibrary.gen.cpp.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\FPStyleTransfer.cpp.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\RealtimeStyleTransferViewExtension.cpp.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\StyleTransferBlueprintLibrary.cpp.obj"
+"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\TensorTextureTranslate.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\ODI_Test\Intermediate\Build\Win64\x64\UnrealEditor\Development\FPStyleTransfer\UnrealEditor-FPStyleTransfer.lib"

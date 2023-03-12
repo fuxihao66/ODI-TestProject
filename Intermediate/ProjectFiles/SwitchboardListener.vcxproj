@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|x64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|Win64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|x64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|Win64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B2935BF-5BBB-36A9-9E68-E4C3E06D9527}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>SwitchboardListener</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SwitchboardListener-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\SwitchboardListener-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SwitchboardListener-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Mac DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Mac DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Mac DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\SwitchboardListener-Mac-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SwitchboardListener.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\SwitchboardListener</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SwitchboardListener-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Mac Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Mac Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Mac Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\SwitchboardListener-Mac-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\SwitchboardListener-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat SwitchboardListener Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SwitchboardListener Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SwitchboardListener Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\SwitchboardListener-Mac-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Private;D:\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\ApplicationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\ApplicationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\RHI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\RHI\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Json\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Json\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Networking\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Networking\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Sockets\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Sockets\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Sockets\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\NetCommon\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\NetCommon\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Projects\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Projects\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\JsonUtilities\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\JsonUtilities\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\JsonUtilities\Public;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Launch\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\Launch\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\ProfilerService\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\ProfilerService\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\ProfilerService\Public;D:\UGit\UnrealEngine\Engine\Source\Developer;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\SwitchboardListener\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\SwitchboardListener\Inc\SwitchboardListener\VNI;D:\UGit\UnrealEngine\Engine\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\ReadMe.md"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerApp.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerVersion.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardMessageFuture.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardPacket.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardTasks.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\SyncStatus.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.h"/>
+    <ResourceCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc2"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SwitchboardListener\Tests\transfer_test.cfg"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

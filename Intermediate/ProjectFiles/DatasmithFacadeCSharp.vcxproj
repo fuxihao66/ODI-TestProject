@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|x64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|Win64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|x64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|Win64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2399F90-DAC0-394F-87FC-36408F813A99}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithFacadeCSharp</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Mac DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Mac DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Mac DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Mac-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\DatasmithFacadeCSharp\DatasmithFacadeCSharp.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\DatasmithFacadeCSharp\DatasmithFacadeCSharp</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Mac Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Mac Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Mac Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Mac-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithFacadeCSharp Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithFacadeCSharp Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithFacadeCSharp Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\DatasmithFacadeCSharp\DatasmithFacadeCSharp-Mac-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DirectLink\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DirectLink\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DirectLink\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Messaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Messaging\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Messaging\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\MeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\MeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\RawMesh\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\RawMesh\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RawMesh\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\StaticMeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\StaticMeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithExporter\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithExporter\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporter\Public;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithExporterUI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithExporterUI\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporterUI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithFacade\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithFacade\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithFacade\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\UdpMessaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\UdpMessaging\VNI;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Networking\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Networking\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Sockets\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\Sockets\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Sockets\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\NetCommon\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\NetCommon\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithFacadeCSharp\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithFacadeCSharp\Inc\DatasmithFacadeCSharp\VNI;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.i"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\FacadeHeaderHelper.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\ReadMe.txt"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithFacadeCSharp\Development\DatasmithFacadeCSharp\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeDLL.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithFacadeCSharp\Development\DatasmithFacadeCSharp\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharp.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharpPINVOKE.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeAnimationTransformType.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeCompletionMode.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeCurveInterpMode.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeElementAnimationSubType.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeMaterialExpressionType.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadePropertyCategory.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\EDatasmithFacadeTransformChannels.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActor.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorBinding.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorCamera.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorDecal.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorLight.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorMesh.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeAreaLight.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeBaseAnimation.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeBaseMaterial.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeDecalMaterial.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeDirectionalLight.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeDirectLink.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeElement.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeEndPointObserver.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionInput.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionParameter.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeExpressionParameterSwigImpl.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeGuid.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeKeyValueProperty.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLevelSequence.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLevelVariantSets.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLightmassPortal.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLog.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpression.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionBool.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionColor.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionFlattenNormal.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionFunctionCall.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionGeneric.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionScalar.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionTexture.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialID.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialInstance.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterialsUtils.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMesh.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMeshElement.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMessageAddress.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMetaData.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadePointLight.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadePropertyCapture.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeRawInfo.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeScene.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeSpotLight.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeSubsequenceAnimation.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeTexture.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeTransformAnimation.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeUEPbrMaterial.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeUniqueNameProvider.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeVariant.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeVariantSet.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeVisibilityAnimation.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\IDatasmithExporterUIModule.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\IDirectLinkUI.cs"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

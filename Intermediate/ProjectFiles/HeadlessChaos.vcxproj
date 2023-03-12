@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE36DA5B-D2F0-3AE1-81A3-48E41D7A8508}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>HeadlessChaos</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\HeadlessChaos\HeadlessChaos-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\HeadlessChaos\HeadlessChaos-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\HeadlessChaos\HeadlessChaos.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\HeadlessChaos\HeadlessChaos-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat HeadlessChaos Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\HeadlessChaos\HeadlessChaos-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Private;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\Chaos\Private;D:\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ApplicationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ApplicationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\RHI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\RHI\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Projects\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Projects\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Json\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Json\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\GeometryCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\GeometryCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Engine\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\GeometryCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\AnimationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\AnimationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\AnimationCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosVehiclesCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosVehiclesCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosVehicles;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Chaos\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Chaos\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\Chaos\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\ChaosCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Intel;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Voronoi\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\Voronoi\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\HeadlessChaos\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\HeadlessChaos\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public;D:\UGit\UnrealEngine\Engine\Source\Programs;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\PhysicsCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\PhysicsCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\PhysicsCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\DeveloperSettings\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\HeadlessChaos\Inc\DeveloperSettings\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\DeveloperSettings\Public;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Merge\merge.py"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosCollisionConstraints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestAABB.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBarycentric.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBP.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestBroadphase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCapsuleTriangleCollision.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCCD.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCloth.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestClustering.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestCollisions.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraintHandle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConstraintSolverCore.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestContactModification.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestConvex.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDataMarshalling.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDenseMatrix.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDetectCollision.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestDirtyParticle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestEPA.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestForces.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJK.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGJKDistance.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGraph.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestGraphEvolution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHandles.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestHeightfield.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestIgnoreManager.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicitMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestImplicits.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestIsland.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoint.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointBreak.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointForces.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointPlasticity.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointRestitution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJoints.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointSolver.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointUtilities.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestJointWake.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestLargeScale.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMath.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMinEvolution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMostOpposing.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestMultiply.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestObbTree.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestObjectPool.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestOneShotManifolds.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestOverlap.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestParticleHandle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestPerf.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestPhysicsScene.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestProbes.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRaycast.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRewind.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestRotation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSAT.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSerialization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestShapePadding.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSim.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSolverBody.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSolverProxies.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSpatialHashing.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestSweep.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestTriangleMesh.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\HeadlessChaosTestVehicles.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\Character\TestCharacterGroundConstraint.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\Character\TestCharacterGroundConstraintContainer.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\Character\TestCharacterGroundConstraintProxy.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\Character\TestCharacterGroundConstraintSolver.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestBoneHierarchy.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClean.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestClustering.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCollisionResolution.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestCreation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestDecimation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestEvents.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFields.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestFramework.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCapsule.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitCylinder.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestImplicitSphere.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestInitilization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMassProperties.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestMatrices.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestPlugin.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestProximity.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestResponse.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSerialization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulation.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationField.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationSolver.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSimulationStreaming.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestSpatialHash.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Private\GeometryCollection\GeometryCollectionTestVisibility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaos.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosApp.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosCollisionConstraints.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBP.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestBroadphase.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCloth.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestClustering.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestCollisions.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestConstraints.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestEPA.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestForces.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestGJK.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestHandles.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestImplicits.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestMostOpposing.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestOverlap.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestParticleHandle.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestRaycast.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSerialization.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverCommandList.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSolverProxies.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSpatialHashing.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestSweep.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestTriangleMesh.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\HeadlessChaosTestUtility.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTest.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestBoneHierarchy.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClean.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestClustering.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCollisionResolution.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestCreation.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestDecimation.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestEvents.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFields.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestFramework.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCapsule.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitCylinder.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestImplicitSphere.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestInitilization.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMassProperties.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestMatrices.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestPlugin.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestProximity.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestResponse.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSerialization.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulation.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationField.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationSolver.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSimulationStreaming.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestSpatialHash.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestUtility.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Public\GeometryCollection\GeometryCollectionTestVisibility.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\BoxGeometry.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\CubeGeometry.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\Cylinder.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\CylinderGeometry.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry2.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\EllipsoidGeometry3.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\FracturedGeometry.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\SphereGeometry.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry1.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\TestGeometry2.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\HeadlessChaos\Development\HeadlessChaos\Definitions.HeadlessChaos.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\HeadlessChaos\Resource\TorusGeometry.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunSettingsFilePath>$(ProjectDir)..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\vstest.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

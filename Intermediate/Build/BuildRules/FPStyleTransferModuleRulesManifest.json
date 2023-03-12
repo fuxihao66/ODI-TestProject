@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"D:\\ODI_Test\\Source\\FPStyleTransfer\\FPStyleTransfer.Build.cs",
+		"D:\\ODI_Test\\Plugins\\OnnxDirectmlInference\\Source\\ODID3D12RHI\\ODID3D12RHI.Build.cs",
+		"D:\\ODI_Test\\Plugins\\OnnxDirectmlInference\\Source\\ODIRHI\\ODIRHI.Build.cs",
+		"D:\\ODI_Test\\Plugins\\OnnxDirectmlInference\\Source\\ODI\\ODI.Build.cs",
+		"D:\\ODI_Test\\Plugins\\OnnxDirectmlInference\\Source\\ThirdParty\\DirectML_1_9_1\\DirectML_1_9_1.Build.cs",
+		"D:\\ODI_Test\\Source\\FPStyleTransfer.Target.cs",
+		"D:\\ODI_Test\\Source\\FPStyleTransferEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.0"
+}

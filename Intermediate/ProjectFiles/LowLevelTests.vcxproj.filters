@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\LowLevelTests.Target.cs" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\LowLevelTests.Build.cs" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\README.md" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\vstest.runsettings" />
+    <Filter Include="Tests">
+      <UniqueIdentifier>{90792DE5-2961-3341-98F9-76EBE4AF3A75}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\LowLevelTests\Tests\TestGroupEvents.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

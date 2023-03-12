@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\SlateUGS.Target.cs" />
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\SlateUGS.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{47F9082F-C380-3A62-9531-096AA1D110F1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ChangeInfo.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ScheduledSyncTimer.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\ScheduledSyncTimer.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSApp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSStyle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\SlateUGSStyle.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSLog.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTab.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTab.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTabManager.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\UGSTabManager.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Private\Platforms">
+      <UniqueIdentifier>{63EF6506-2525-38B3-9A05-14C447BD5C80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Platforms\Linux">
+      <UniqueIdentifier>{A9EBA492-D7FA-3917-B507-9093637AE0F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Linux\SlateUGSMainLinux.cpp">
+      <Filter>Private\Platforms\Linux</Filter>
+    </ClCompile>
+    <Filter Include="Private\Platforms\Mac">
+      <UniqueIdentifier>{41387441-E9EA-3BD1-975D-CAF34D4BB69A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Mac\SlateUGSMainMac.cpp">
+      <Filter>Private\Platforms\Mac</Filter>
+    </ClCompile>
+    <Filter Include="Private\Platforms\Windows">
+      <UniqueIdentifier>{49A59A27-ABB6-34E8-B16A-50C66710CDA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Platforms\Windows\SlateUGSMainWindows.cpp">
+      <Filter>Private\Platforms\Windows</Filter>
+    </ClCompile>
+    <Filter Include="Private\Widgets">
+      <UniqueIdentifier>{FDFC29E0-3016-3DD6-802E-F72F4AE2CB3C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SEmptyTab.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SEmptyTab.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SGameSyncTab.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SGameSyncTab.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SHordeBadge.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SHordeBadge.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SLogWidget.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SLogWidget.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SModalTaskWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SModalTaskWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SNewWorkspaceWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SNewWorkspaceWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SPopupTextWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SPopupTextWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SScheduledSyncWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SScheduledSyncWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSelectStreamWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSelectStreamWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSettingsWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSettingsWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSyncFilterWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SSyncFilterWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SWorkspaceWindow.cpp">
+      <Filter>Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Private\Widgets\SWorkspaceWindow.h">
+      <Filter>Private\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Public">
+      <UniqueIdentifier>{3D067BED-FE2F-3677-870D-D6CCF64D05ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Public\SlateUGS.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\SlateUGS\Public\SlateUGSApp.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

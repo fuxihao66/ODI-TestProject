@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5AB53ECE-E5A6-3313-8004-1AD2E978C545}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>ZenDashboard</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat ZenDashboard Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ZenDashboard Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ZenDashboard Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\ZenDashboard-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat ZenDashboard Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ZenDashboard Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ZenDashboard Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\ZenDashboard-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat ZenDashboard Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ZenDashboard Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ZenDashboard Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\ZenDashboard.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat ZenDashboard Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ZenDashboard Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ZenDashboard Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\ZenDashboard-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat ZenDashboard Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ZenDashboard Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ZenDashboard Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\ZenDashboard-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Private;D:\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Json\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Json\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Projects\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Projects\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ApplicationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ApplicationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\RHI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\RHI\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Slate\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Slate\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Slate\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\InputCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\InputCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;D:\UGit\UnrealEngine\Engine\Source\Runtime\InputCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\SlateCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\SlateCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ImageWrapper\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ImageWrapper\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ImageCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ImageCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ImageCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\StandaloneRenderer\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\StandaloneRenderer\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\StandaloneRenderer\Public;D:\UGit\UnrealEngine\Engine\Source\Developer;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Zen\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\Zen\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Zen\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ZenDashboard\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\ZenDashboard\Inc\ZenDashboard\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\UGit\UnrealEngine\Engine\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\ZenDashboard.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Programs\ZenDashboard\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\ZenDashboard.Build.cs"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ServiceInstanceManager.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ServiceInstanceManager.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SMessageDialog.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SMessageDialog.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SZenServiceStatus.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\SZenServiceStatus.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

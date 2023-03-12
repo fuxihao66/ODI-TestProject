@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPStyleTransfer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPStyleTransfer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPStyleTransferEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ECEE0A84-AF1B-3E31-98AE-C4CE303FAD9D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Shaders\tensor2Texture.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Shaders\texture2Tensor.usf">
+      <Filter>Shaders</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference">
+      <UniqueIdentifier>{2F29CA2C-EA52-3B60-A8AB-0AE127D7806F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source">
+      <UniqueIdentifier>{BEDFCD64-105F-33D3-8721-8888A90E008E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI">
+      <UniqueIdentifier>{D6EF578D-A5CA-39F2-93B0-B92E80820D91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\ODID3D12RHI.Build.cs">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\OnnxParser">
+      <UniqueIdentifier>{AA2F188B-A42E-3618-AD5C-5BD944BCEF03}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\OnnxParser\OnnxParser.dll">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\OnnxParser</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\OnnxParser\OnnxParser.lib">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\OnnxParser</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private">
+      <UniqueIdentifier>{5E03801B-99B1-3606-B562-560AA0204A55}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\ODID3D12RHI.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperatorMapping.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator">
+      <UniqueIdentifier>{6E186DF3-A57A-3CA5-A342-4F9050BE098A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorActivation.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorCast.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorConcat.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorConstant.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorConvolution.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorElementWise.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorGather.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorInstanceNormalization.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorPadding.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorResize.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorSlice.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator\DmlOperatorUnsqueeze.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Private\OnnxDMLOperator</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public">
+      <UniqueIdentifier>{1F7E4DE5-004E-3A02-AE7D-B5E169C44DE6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\ODID3D12RHI.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\OnnxDMLOperatorGenerator.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\OnnxDMLOperatorMapping.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\OperatorRegistration.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common">
+      <UniqueIdentifier>{7C91FC07-0E4D-3ED6-9CEA-EAA8F5DDCB26}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common\Common.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common\Float16Compressor.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common\OnnxParser.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\Common</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper">
+      <UniqueIdentifier>{EB6DC618-DDD8-388C-912F-552EC846C332}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper\d3dx12.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper\DirectMLX.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper\pch.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODID3D12RHI\Public\helper</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\ODI.uplugin">
+      <Filter>Plugins\OnnxDirectmlInference</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Resources">
+      <UniqueIdentifier>{372018B7-FD9A-33E6-B8AB-F8712912C01A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Resources\Icon128.png">
+      <Filter>Plugins\OnnxDirectmlInference\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODIRHI">
+      <UniqueIdentifier>{235CA94A-1AA1-3934-9E99-7A7D814C3B1C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ODIRHI\ODIRHI.Build.cs">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODIRHI</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODIRHI\Private">
+      <UniqueIdentifier>{E42DDD9E-58F1-3358-93A1-1294F1B8611B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODIRHI\Private\ODIRHI.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODIRHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODIRHI\Public">
+      <UniqueIdentifier>{65262D4A-2AB8-3282-91D8-2FEFB02FD190}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODIRHI\Public\ODIRHI.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODIRHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODI">
+      <UniqueIdentifier>{A09D36C7-FF5C-3F68-BCE9-2B55A65A34D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ODI\ODI.Build.cs">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODI</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODI\Private">
+      <UniqueIdentifier>{16E141D8-01A3-36AB-B524-456941943890}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODI\Private\Network.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OnnxDirectmlInference\Source\ODI\Private\ODI.cpp">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ODI\Public">
+      <UniqueIdentifier>{942D3F15-9428-3574-BE8F-8722F86C6FD2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODI\Public\Network.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ODI\Public\ODI.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ODI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty">
+      <UniqueIdentifier>{6F2B282D-DFA4-3EF8-8844-9C2605256F51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1">
+      <UniqueIdentifier>{1B0BED09-CE67-3452-8390-FF310C432923}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\.signature.p7s">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\DirectML_1_9_1.Build.cs">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\LICENSE-CODE.txt">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\LICENSE.txt">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\Microsoft.AI.DirectML.1.9.1.nupkg">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\README.md">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\ThirdPartyNotices.txt">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin">
+      <UniqueIdentifier>{08F7F506-9FC1-382F-93C0-D555843637D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64">
+      <UniqueIdentifier>{E92C27FA-15D6-3C05-89F1-5B8FA55FC044}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64\DirectML.Debug.dll">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64\DirectML.Debug.pdb">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64\DirectML.dll">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64\DirectML.pdb">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\bin\Win64</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build">
+      <UniqueIdentifier>{FDE3890A-84D3-3C71-88B1-796155014308}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build\Microsoft.AI.DirectML.props">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build\Microsoft.AI.DirectML.Rules.Project.xml">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build</Filter>
+    </None>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build\Microsoft.AI.DirectML.targets">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\build</Filter>
+    </None>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\include">
+      <UniqueIdentifier>{35D59570-4F5A-3CC9-AE98-ED1036394EFB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\include\DirectML.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\include\DirectMLConfig.h">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\lib">
+      <UniqueIdentifier>{BF40E41F-1BFD-3BB0-8CCE-230925C65FE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\lib\Win64">
+      <UniqueIdentifier>{66A3CD8B-3CFB-3556-BB67-5FB51409B1A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\lib\Win64\DirectML.lib">
+      <Filter>Plugins\OnnxDirectmlInference\Source\ThirdParty\DirectML_1_9_1\lib\Win64</Filter>
+    </None>
+    <Filter Include="Source\FPStyleTransfer">
+      <UniqueIdentifier>{142FC58B-2095-3ACB-8C33-ACAC5FC9B236}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPStyleTransfer\FPStyleTransfer.Build.cs">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPStyleTransfer\FPStyleTransfer.cpp">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPStyleTransfer\FPStyleTransfer.h">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPStyleTransfer\RealtimeStyleTransferViewExtension.cpp">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPStyleTransfer\RealtimeStyleTransferViewExtension.h">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPStyleTransfer\StyleTransferBlueprintLibrary.cpp">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPStyleTransfer\StyleTransferBlueprintLibrary.h">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPStyleTransfer\TensorTextureTranslate.cpp">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPStyleTransfer\TensorTextureTranslate.h">
+      <Filter>Source\FPStyleTransfer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

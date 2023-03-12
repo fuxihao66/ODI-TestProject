@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{47F4B3A1-402E-E39C-CF25-D88CE515088C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPStyleTransfer",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"ODI",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ODI",
+			"Enabled": true
+		}
+	]
+}

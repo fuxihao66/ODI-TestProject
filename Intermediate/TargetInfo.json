@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPStyleTransfer",
+			"Path": "D:\\ODI_Test\\Source\\FPStyleTransfer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPStyleTransferEditor",
+			"Path": "D:\\ODI_Test\\Source\\FPStyleTransferEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

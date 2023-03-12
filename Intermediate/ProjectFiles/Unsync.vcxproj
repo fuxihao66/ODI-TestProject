@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|Win64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|x64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Program|Win64">
+      <Configuration>Mac_Debug_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|Win64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|x64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Program|Win64">
+      <Configuration>Mac_DebugGame_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|Win64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|x64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Program|Win64">
+      <Configuration>Mac_Development_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|Win64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|x64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Program|Win64">
+      <Configuration>Mac_Test_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|Win64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|x64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Program|Win64">
+      <Configuration>Mac_Shipping_Program</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B4A8B0A-C345-3517-8E26-FED4B35BAA38}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>Unsync</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\Unsync-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\Unsync-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\Unsync-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Mac DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Mac DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Mac DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\Unsync-Mac-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\Unsync.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\Unsync</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\Unsync-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Mac Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Mac Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Mac Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\Unsync-Mac-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\Unsync-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat Unsync Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Unsync Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Unsync Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Mac\Unsync-Mac-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty;D:\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\unsync\Inc\Unsync\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\unsync\Inc\Unsync\VNI;D:\UGit\UnrealEngine\Engine\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++20 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Unsync.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Programs\Unsync\Config\Mac\MacEngine.ini"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.clang-format"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.editorconfig"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.gitignore"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\.p4ignore.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\CMakeLists.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\README.md"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Unsync.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\vcpkg.json"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\vs-chromium-project.txt"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncBuffer.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncBuffer.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdDiff.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdDiff.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdHash.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdHash.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPatch.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPatch.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPush.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdPush.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdQuery.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdQuery.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdSync.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCmdSync.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCommon.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCompression.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCompression.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCore.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncCore.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncError.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncFile.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncFile.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHash.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHash.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHttp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncHttp.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncJupiter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncJupiter.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncLog.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncLog.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMemory.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMemory.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMiniCb.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncMiniCb.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncPool.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProtocol.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProtocol.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProxy.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncProxy.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncRemote.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncRemote.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncScan.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSerialization.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSerialization.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSocket.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncSocket.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncTest.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncTest.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncThread.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncThread.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncUtil.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncUtil.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\Private\UnsyncVarInt.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\flat_hash_map.hpp"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\json11.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\json11.hpp"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\md5-sse2.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\BLAKE3\1.3.1\c;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\CLI11\2.2.0\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\fmt\8.1.1\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\http_parser\2.9.4\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\libressl_x64-windows-static-v142\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\vcpkg\Win64\x64-windows-static-v142\zstd_x64-windows-static-v142\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\unsync\Development\Unsync\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\md5-sse2.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\DebugHeap.c"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\DebugHeap.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\ig-debugheap\README.md"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\flat_hash_map.tps"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\flat_hash_map_License.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\ig-debugheap.tps"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\ig-debugheap_License.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\json11.tps"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\json11_License.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\sse-hash.tps"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Unsync\ThirdParty\Licenses\sse-hash_License.txt"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\odi_test\\intermediate\\build\\win64\\unrealeditor\\inc\\fpstyletransfer\\uht\\styletransferblueprintlibrary.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ugit\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\odi_test\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpstyletransfer\\definitions.fpstyletransfer.h",
+            "d:\\odi_test\\source\\fpstyletransfer\\styletransferblueprintlibrary.h",
+            "d:\\odi_test\\intermediate\\build\\win64\\unrealeditor\\inc\\fpstyletransfer\\uht\\styletransferblueprintlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

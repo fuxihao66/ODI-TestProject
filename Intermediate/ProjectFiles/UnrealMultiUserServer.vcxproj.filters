@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\UnrealMultiUserServer.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Programs\UnrealMultiUserServer\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\UnrealMultiUserServer.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{47F9082F-C380-3A62-9531-096AA1D110F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerMain.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerRun.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Private\UnrealMultiUserServerRun.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{DDCF50C2-9294-3441-8F3F-7C1BBC892CB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Linux">
+      <UniqueIdentifier>{FDA304DA-9B87-3DB5-9478-B83454A67D3E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Linux\UnrealMultiUserServer.png">
+      <Filter>Resources\Linux</Filter>
+    </None>
+    <Filter Include="Resources\Mac">
+      <UniqueIdentifier>{8AC51206-1A68-3856-9744-F8AD68B306AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\Info.plist">
+      <Filter>Resources\Mac</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\make_icns.sh">
+      <Filter>Resources\Mac</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.icns">
+      <Filter>Resources\Mac</Filter>
+    </None>
+    <Filter Include="Resources\Mac\UnrealMultiUserServer.iconset">
+      <UniqueIdentifier>{3E7CEF6D-E68C-3882-9985-46A5A5071A42}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_128x128.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_128x128@2x.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_16x16.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_16x16@2x.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_256x256.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_256x256@2x.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_32x32.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_32x32@2x.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_512x512.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Mac\UnrealMultiUserServer.iconset\icon_512x512@2x.png">
+      <Filter>Resources\Mac\UnrealMultiUserServer.iconset</Filter>
+    </None>
+    <Filter Include="Resources\Windows">
+      <UniqueIdentifier>{46AD4DD0-FE4C-3C35-90F2-9E8DC868BC67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\make_ico.py">
+      <Filter>Resources\Windows</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer.ico">
+      <Filter>Resources\Windows</Filter>
+    </None>
+    <ResourceCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer.rc">
+      <Filter>Resources\Windows</Filter>
+    </ResourceCompile>
+    <Filter Include="Resources\Windows\UnrealMultiUserServer">
+      <UniqueIdentifier>{C8952E83-D670-3263-BF3D-697F40B32CB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer\icon_16x16.png">
+      <Filter>Resources\Windows\UnrealMultiUserServer</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer\icon_24x24.png">
+      <Filter>Resources\Windows\UnrealMultiUserServer</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer\icon_256x256.png">
+      <Filter>Resources\Windows\UnrealMultiUserServer</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer\icon_32x32.png">
+      <Filter>Resources\Windows\UnrealMultiUserServer</Filter>
+    </None>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\UnrealMultiUserServer\Resources\Windows\UnrealMultiUserServer\icon_48x48.png">
+      <Filter>Resources\Windows\UnrealMultiUserServer</Filter>
+    </None>
+  </ItemGroup>
+</Project>

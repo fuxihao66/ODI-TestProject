@@ -1,0 +1,27 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="FPStyleTransferEditor Win64 Development -Project=\"D:\ODI_Test\FPStyleTransfer.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+  Log file: D:\UGit\UnrealEngine\Engine\Programs\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\UGit\UnrealEngine).
+  Waiting for 'git status' command to complete
+  Building FPStyleTransferEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.20348.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in FPStyleTransferEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
+    Executing up to 12 processes, one per physical core
+  Building 7 actions with 7 processes...
+  [1/7] Compile [x64] RealtimeStyleTransferViewExtension.cpp
+D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODI\Public\Network.h(8): fatal error C1083: Cannot open include file: 'ODIRHI.h': No such file or directory
+  [2/7] Compile [x64] StyleTransferBlueprintLibrary.cpp
+D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODI\Public\Network.h(8): fatal error C1083: Cannot open include file: 'ODIRHI.h': No such file or directory
+  [3/7] Compile [x64] FPStyleTransfer.cpp
+D:\ODI_Test\Plugins\OnnxDirectmlInference\Source\ODI\Public\Network.h(8): fatal error C1083: Cannot open include file: 'ODIRHI.h': No such file or directory
+  [4/7] Compile [x64] TensorTextureTranslate.cpp
+  [5/7] Link [x64] UnrealEditor-FPStyleTransfer.lib cancelled
+  [6/7] Link [x64] UnrealEditor-FPStyleTransfer.dll cancelled
+  [7/7] WriteMetadata FPStyleTransferEditor.target cancelled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command "D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="FPStyleTransferEditor Win64 Development -Project=\"D:\ODI_Test\FPStyleTransfer.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild" exited with code 6.

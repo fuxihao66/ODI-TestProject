@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D28C8E04-3257-377A-B5C5-77F41D3440DE}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithMax2016</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithMax2016 Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithMax2016 Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithMax2016 Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\3DSMax\2016\DatasmithMax2016-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithMax2016 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithMax2016 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithMax2016 Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\3DSMax\2016\DatasmithMax2016-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithMax2016 Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithMax2016 Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithMax2016 Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\3DSMax\2016\DatasmithMax2016.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithMax2016 Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithMax2016 Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithMax2016 Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\3DSMax\2016\DatasmithMax2016-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Build.bat DatasmithMax2016 Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat DatasmithMax2016 Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\UGit\UnrealEngine\Engine\Build\BatchFiles\Clean.bat DatasmithMax2016 Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\UGit\UnrealEngine\Engine\Binaries\Win64\3DSMax\2016\DatasmithMax2016-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\UGit\UnrealEngine\Engine\Source;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Launch\Private;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithExporter\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithExporter\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporter\Public;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Core\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Core\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\TraceLog\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\TraceLog\VNI;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\CoreUObject\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\CoreUObject\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DirectLink\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DirectLink\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Datasmith\DirectLink\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Messaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Messaging\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Messaging\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\MeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\MeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\RawMesh\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\RawMesh\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RawMesh\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\StaticMeshDescription\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\StaticMeshDescription\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithExporterUI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithExporterUI\VNI;D:\UGit\UnrealEngine\Engine\Source\Developer\Datasmith\DatasmithExporterUI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\UdpMessaging\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\UdpMessaging\VNI;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;D:\UGit\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Networking\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Networking\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Sockets\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Sockets\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Sockets\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\NetCommon\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\NetCommon\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;D:\UGit\UnrealEngine\Engine\Source\Runtime\Net;D:\UGit\UnrealEngine\Engine\Source\ThirdParty;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Slate\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Slate\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Slate\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ApplicationCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ApplicationCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\RHI\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\RHI\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\RHI\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\InputCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\InputCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;D:\UGit\UnrealEngine\Engine\Source\Runtime\InputCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Json\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\Json\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\Json\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\SlateCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\SlateCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ImageWrapper\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ImageWrapper\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ImageCore\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\ImageCore\VNI;D:\UGit\UnrealEngine\Engine\Source\Runtime\ImageCore\Public;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithMax2016\UHT;D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\DatasmithMax2016\Inc\DatasmithMax2016\VNI;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public;D:\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2016.Target.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2016.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2017.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2018.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2019.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2020.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2021.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2022.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2023.Build.cs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMaxExporter.def"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMaxExporterWithDirectLink.def"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UnrealStudio_Datasmith_Attributes_Holder_Modifier.ms"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\build.cmd"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\DatasmithMacros.mcr"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\DatasmithPostStartUp.ms"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\DatasmithPreStartUp.ms"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\datasmith_icons.qrc"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\datasmith_icons.rcc"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\pre-start-up.ms"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\3dsMaxScripts\UI\en-US\DatasmithMacros.mcr.res"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithLogIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithSettingsIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithSyncIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Extras\Icons\DatasmithToolsIcon32.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomActions.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomExitDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomInstallDirDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomLicenseAgreementDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomWelcomeDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\CustomWixUI_InstallDir.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\GenericUiBrandDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Installer.wixproj"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\MaxExporter.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\ReadMe.txt"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Localization\en-us.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\default_small_banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Dialog.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Exporter Plugin End User License Agreement.docx"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Exporter Plugin End User License Agreement.rtf"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Microsoft_VC140_CRT_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Microsoft_VC140_OpenMP_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\UnrealEngine.ico"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\General\banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\General\unreal-logo.jpg"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Epic_Games_logo.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Background\28190.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Background\28402.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Background\28674.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Background\30668.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\Background\30725.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\General\banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Installer\Resources\Images\General\unreal-logo.jpg"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CreateMultilanguageInstaller.bat"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CreateMultilanguageInstaller.py"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomActions.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomExitDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomInstallDirDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomLicenseAgreementDlg.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomWelcomeDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\CustomWixUI_InstallDir.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\GenericUiBrandDialog.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Installer.wixproj"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\MaxExporter.wxs"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Localization\en-us.wxl"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\default_small_banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Dialog.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Epic_Games_logo.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Exporter Plugin End User License Agreement.docx"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Exporter Plugin End User License Agreement.rtf"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\MacOS_Background.png"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Microsoft_VC140_CRT_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Microsoft_VC140_OpenMP_x64.msm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\UnrealEngine.ico"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Epic_Games_logo.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Background\28190.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Background\28402.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Background\28674.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Background\30668.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\Background\30725.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\General\banner.bmp"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\InstallerDirectLink\Resources\Images\General\unreal-logo.jpg"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Plugin\Help.htm"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Plugin\PackageContents.xml"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxArnold.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxAttributes.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxAttributes.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxCameraExporter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxConverters.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxCorona.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkItoo.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkLogging.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkMaterial.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkMaxScript.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkMesh.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkNotifications.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxDirectLinkPlugin.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxExporter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxExporterUtils.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxExporterWithDirectLink.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxHelper.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxLogger.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxMental.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxMeshExporter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxProgressManager.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxScanline.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxSceneExporter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxSceneParser.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxTexmapParser.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxTexmapParser.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxThea.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxVRay.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\DatasmithMaxWriter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\VRayLights.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxCoronaMaterialsToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxCoronaMaterialsToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxCoronaTexmapToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxCoronaTexmapToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxMaterialsToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxMaterialsToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxMentalMaterialToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxMentalMaterialToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxPhysicalMaterialToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxPhysicalMaterialToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxScanlineMaterialsToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxScanlineMaterialsToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxTexmapToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxTexmapToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxVrayMaterialsToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxVrayMaterialsToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxVRayTexmapToUEPbr.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\MaxMaterialsToUEPbr\DatasmithMaxVRayTexmapToUEPbr.h"/>
+    <ClCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\UI\Datasmith3dsMaxUI.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UGit\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\openexr\Deploy\openexr-3.1.5\include\OpenEXR;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\Imath\Deploy\Imath-3.1.3\include\Imath;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UGit\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\UGit\UnrealEngine\Engine\Intermediate\Build\Win64\x64\DatasmithMax2016\Development\DatasmithMax2016\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Private\UI\IDatasmith3dsMaxUI.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxCameraExporter.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxClassIDs.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxConverters.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxDirectLink.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxExporter.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxExporterDefines.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxExporterUtils.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxGeomUtils.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxHelper.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxLogger.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxMeshExporter.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxProgressManager.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxSceneExporter.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxSceneParser.h"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Public\DatasmithMaxWriter.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Resources\Windows\Resource.aps"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Resources\Windows\resource.h"/>
+    <ResourceCompile Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Resources\Windows\Resource.rc"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\Resources\Windows\UE.ico"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo\forestitreesinterface.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo\ForestPackRailcloneAPI.tps"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo\ircinterface.h"/>
+    <None Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo\Itoo.Build.cs"/>
+    <ClInclude Include="..\..\..\UGit\UnrealEngine\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\ThirdParty\Itoo\itreesinterface.H"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

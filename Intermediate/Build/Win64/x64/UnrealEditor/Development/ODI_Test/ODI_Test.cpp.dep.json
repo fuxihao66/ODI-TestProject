@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\odi_test\\source\\odi_test\\odi_test.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ugit\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\odi_test\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\odi_test\\definitions.odi_test.h",
+            "d:\\odi_test\\source\\odi_test\\odi_test.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
