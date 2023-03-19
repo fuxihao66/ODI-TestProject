@@ -36,7 +36,7 @@ FRealtimeStyleTransferViewExtension::FRealtimeStyleTransferViewExtension(const F
 }
 
 //------------------------------------------------------------------------------
-Network* FRealtimeStyleTransferViewExtension::myNetwork = nullptr;
+Network* FRealtimeStyleTransferViewExtension::myNetwork = new Network(L"D:/UGit/ODI-TestProject/Source/Model/optimized-candy-9.onnx", "StyleTransfer");
 
 //------------------------------------------------------------------------------
 void FRealtimeStyleTransferViewExtension::SetStyle(const std::wstring& onnx_file_path)
@@ -58,7 +58,7 @@ FRDGTextureRef FRealtimeStyleTransferViewExtension::AddStylePass_RenderThread(
 	if (SourceTexture == nullptr)
 	{
 		UE_LOG(LogRealtimeStyleTransfer, Warning, TEXT("Skipping null texture"));
-		return;
+		return SourceTexture;
 	}
 
 	uint32 TextureWidth = SourceTexture->Desc.Extent.X;

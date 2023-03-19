@@ -8,8 +8,8 @@ IMPLEMENT_PRIMARY_GAME_MODULE(FPStyleTransferModule, FPStyleTransfer, "FPStyleTr
 
 void FPStyleTransferModule::StartupModule()
 {
-	FString ModuleDir = FPaths::Combine(IPluginManager::Get().FindPlugin(TEXT("TemaranShaderTutorial"))->GetBaseDir(), TEXT("Shaders"));
-	AddShaderSourceDirectoryMapping(TEXT("/ProjectShaders"), ModuleDir);
+	/*FString ModuleDir = FPaths::ProjectDir();
+	AddShaderSourceDirectoryMapping(TEXT("/ProjectShaders"), ModuleDir);*/
 
 	RealtimeStyleTransferViewExtension = FSceneViewExtensions::NewExtension<FRealtimeStyleTransferViewExtension>();
 }

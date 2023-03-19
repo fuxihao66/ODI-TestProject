@@ -17,7 +17,7 @@ public class FPStyleTransfer : ModuleRules
 	   );
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "ODI", "ODIRHI", "TextureBufferCopy" });
 
 		PrivateDependencyModuleNames.AddRange(
 							new string[]
@@ -30,6 +30,9 @@ public class FPStyleTransfer : ModuleRules
 										"RHI",
 										"RHICore",
 										"D3D12RHI",
+										"ODI",
+										"ODIRHI",
+										"TextureBufferCopy"
 								// ... add private dependencies that you statically link with here ...  
 							}
 						);
