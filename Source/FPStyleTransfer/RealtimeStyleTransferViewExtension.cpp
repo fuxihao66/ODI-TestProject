@@ -71,10 +71,8 @@ FRDGTextureRef FRealtimeStyleTransferViewExtension::AddStylePass_RenderThread(
 	auto OutputBuffer = GraphBuilder.CreateBuffer(BufferDesc, TEXT("OutputTensor"));
 
 	myNetwork->CreateModelAndUploadData(GraphBuilder);
-	// synchronize?
 	myNetwork->ExecuteInference(GraphBuilder, 
 		std::map<std::string, FRDGBufferRef>{ {"input1", SourceBuffer} }, OutputBuffer);
-
 	return DispatchTensor2Texture(GraphBuilder, TextureWidth, TextureHeight, BufferWidth, BufferHeight, OutputBuffer, SourceTexture->Desc);
 }
 
