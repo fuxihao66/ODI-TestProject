@@ -1,0 +1,3 @@
+[submodule "Plugins/OnnxDirectmlInference"]
+	path = Plugins/OnnxDirectmlInference
+	url = https://github.com/fuxihao66/OnnxDirectmlInference.git
