@@ -36,7 +36,7 @@ FRealtimeStyleTransferViewExtension::FRealtimeStyleTransferViewExtension(const F
 }
 
 //------------------------------------------------------------------------------
-Network* FRealtimeStyleTransferViewExtension::myNetwork = new Network(L"D:/UGit/ODI-TestProject/Source/Model/optimized-candy-9.onnx", "StyleTransfer");
+Network* FRealtimeStyleTransferViewExtension::myNetwork = new Network(*FPaths::Combine(FPaths::ProjectDir(),TEXT("Source/Model/optimized-candy-9.onnx")), "StyleTransfer");
 
 //------------------------------------------------------------------------------
 void FRealtimeStyleTransferViewExtension::SetStyle(const std::wstring& onnx_file_path)
