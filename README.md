@@ -7,3 +7,6 @@ This project is modified from https://github.com/microsoft/OnnxRuntime-UnrealEng
 
 ## Requirements
 * Unreal Engine Version >= 5.1
+
+## How to enable neural network
+Enter **r.RealtimeStyleTransfer.Enable 1** in command line
