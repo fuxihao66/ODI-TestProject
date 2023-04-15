@@ -36,7 +36,7 @@ FRealtimeStyleTransferViewExtension::FRealtimeStyleTransferViewExtension(const F
 }
 
 //------------------------------------------------------------------------------
-Network* FRealtimeStyleTransferViewExtension::myNetwork = new Network(*FPaths::Combine(FPaths::ProjectDir(),TEXT("Source/Model/optimized-candy-9.onnx")), "StyleTransfer");
+Network* FRealtimeStyleTransferViewExtension::myNetwork = new Network(*FPaths::Combine(FPaths::ProjectDir(),TEXT("Source/Model/optimized_model_opset9_fp32.onnx")), "StyleTransfer");
 
 //------------------------------------------------------------------------------
 void FRealtimeStyleTransferViewExtension::SetStyle(const std::wstring& onnx_file_path)
@@ -63,16 +63,19 @@ FRDGTextureRef FRealtimeStyleTransferViewExtension::AddStylePass_RenderThread(
 
 	uint32 TextureWidth = SourceTexture->Desc.Extent.X;
 	uint32 TextureHeight = SourceTexture->Desc.Extent.Y;
-	uint32 BufferWidth = 224;
-	uint32 BufferHeight = 224;
-	auto SourceBuffer = DispatchTexture2Tensor(GraphBuilder, TextureWidth, TextureHeight, BufferWidth, BufferHeight, SourceTexture);
+	uint32 BufferWidth = 1280;
+	uint32 BufferHeight = 720;
+
+	FRDGBufferDesc InputBufferDesc = FRDGBufferDesc::CreateBufferDesc(sizeof(uint16_t), BufferWidth * BufferHeight * 21); // half
+	//auto SourceBuffer = DispatchTexture2Tensor(GraphBuilder, TextureWidth, TextureHeight, BufferWidth, BufferHeight, SourceTexture);
+	auto SourceBuffer = GraphBuilder.CreateBuffer(InputBufferDesc, TEXT("InputTensor"));
 	// auto OutputBuffer = DispatchTexture2Tensor(GraphBuilder, TextureWidth, TextureHeight, BufferWidth, BufferHeight, OutputTexture);
 	FRDGBufferDesc BufferDesc = FRDGBufferDesc::CreateBufferDesc(sizeof(uint16_t), BufferWidth * BufferHeight * 3); // half
 	auto OutputBuffer = GraphBuilder.CreateBuffer(BufferDesc, TEXT("OutputTensor"));
 
 	myNetwork->CreateModelAndUploadData(GraphBuilder);
 	myNetwork->ExecuteInference(GraphBuilder, 
-		std::map<std::string, FRDGBufferRef>{ {"input1", SourceBuffer} }, OutputBuffer);
+		std::map<std::string, FRDGBufferRef>{ {"input_buffer", SourceBuffer} }, OutputBuffer);
 	return DispatchTensor2Texture(GraphBuilder, TextureWidth, TextureHeight, BufferWidth, BufferHeight, OutputBuffer, SourceTexture->Desc);
 }
 
