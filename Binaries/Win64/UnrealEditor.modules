@@ -1,7 +1,7 @@
 {
-	"BuildId": "32e7cf44-5a46-4d91-a327-2fecdc166b6e",
+	"BuildId": "af81fc34-87ad-4b24-80f6-517b70a54d0b",
 	"Modules": 
 	{
-		"ODI_Test": "UnrealEditor-ODI_Test.dll"
+		"FPStyleTransfer": "UnrealEditor-FPStyleTransfer.dll"
 	}
 }
